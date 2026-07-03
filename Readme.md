@@ -2,6 +2,7 @@ https://behave.readthedocs.io/en/latest/tutorial/</BR>
 
 python3 -m venv .venv</BR>
 source .venv/bin/activate</BR>
+pip install virtualenvwrapper</BR>
 python3 -m pip install --upgrade pip</BR>
 
 pip install behave</BR>
