@@ -9,14 +9,19 @@ pip install behave</BR>
 
 pip install pytest</BR>
 
+pip install nose</BR>
+
 sudo apt install python3-pytest</BR>
 
 pip freeze > requirements.txt</BR>
 pip install -r requirements.txt</BR>
 
-```
-Note: To run the test case,we input behave in run command section.
 
-Syntax: behave -i filename.feature
-Syntax: behave
+Note: To run the test case,we input behave in run command section.</BR>
 
+Syntax: behave -i filename.feature</BR>
+Syntax: behave</BR>
+
+nosetests test/calculate_test.py</BR>
+
+https://flask.palletsprojects.com/en/stable/</BR>
