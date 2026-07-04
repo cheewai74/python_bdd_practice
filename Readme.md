@@ -7,6 +7,10 @@ python3 -m pip install --upgrade pip</BR>
 
 pip install behave</BR>
 
+pip install pytest</BR>
+
+sudo apt install python3-pytest</BR>
+
 pip freeze > requirements.txt</BR>
 pip install -r requirements.txt</BR>
 
