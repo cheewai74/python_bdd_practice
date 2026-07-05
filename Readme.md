@@ -12,11 +12,20 @@ pip install pytest-cov</BR>
 pip install --upgrade unittest-xml-reporting</BR>
 pip install mock</BR>
 pip install requests</BR>
+pip install webtest</BR>
+pip install pylint</BR>
+pip install coverage</BR>
+pip install paver</BR>
+
 
 ```
 pip install pynose
 nosetests test/calculate_test.py
+nosetests --with-doctest -v
 nosetests
+nosetests --with-coverage
+nosetests --with-coverage --cover-erase --cover-xml
+nosetests --with-coverage --cover-erase --cover-html
 
 pip install rednose
 nosetests --rednose
@@ -29,6 +38,8 @@ py.test --cov app/ tests/
 
 
 sudo apt install python3-pytest</BR>
+sudo apt-get install jmeter</BR>
+sudo apt-get install jenkins</BR>
 
 pip freeze > requirements.txt</BR>
 pip install -r requirements.txt</BR>
@@ -41,3 +52,14 @@ Syntax: behave</BR>
 
 
 https://flask.palletsprojects.com/en/stable/</BR>
+
+Using Gherkin Syntax</BR>
+```
+Feature:
+Scenario:
+Scenario Outline:
+Given
+When
+Then
+And
+```
