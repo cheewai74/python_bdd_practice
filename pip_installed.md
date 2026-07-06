@@ -8,6 +8,7 @@
 |  pip install requests  |   |     |
 |  pip install pytest |   |     |
 |  pip install pytest-cov |   |     |
+|  pip install pytest pytest-bdd |   |     |
 |  pip install --upgrade unittest-xml-reporting |   |     |
 |  pip install mock |   |     |
 |  pip install requests |   |     |

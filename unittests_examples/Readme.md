@@ -1,4 +1,5 @@
 pip install pytest</BR>
+Names must start with `test_`</BR>
 
 pytest tests/calculate_test.py
 pytest --doctest-modules -v tests/calculate_test.py
